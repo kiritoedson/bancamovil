@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Page</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      nav img {
+        height: 40px;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+      nav ul li {
+        margin: 0 15px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: #001391;
+        font-weight: bold;
+      }
+      nav button {
+        background-color: #001391;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+      nav button:hover {
+        background-color: #0033cc;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+      nav ul li {
+        margin: 0 15px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: #001391;
+        font-weight: bold;
+      }
+      nav button {
+        background-color: #001391;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+      nav button:hover {
+        background-color: #0033cc;
+      }
+      main {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+      .card {
+        width: 33%;
+        background-color: #001391;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: white;
+      }
+      .card-row {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 900px;
+      }
+      .small-card {
+        width: 30%;
+        background-color: white;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <img src="bbva-logo.png" alt="BBVA Logo" />
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#cuentas">Cuentas</a></li>
+        <li><a href="#tarjetas">Tarjetas</a></li>
+        <li><a href="#transferencias">Transferencias</a></li>
+        <li><a href="#ayuda">Ayuda</a></li>
+      </ul>
+      <button>Iniciar sesión</button>
+    </nav>
+    <main>
+      <div class="card">
+        <h2>Tarjeta de contenido</h2>
+        <p>Este es un ejemplo de tarjeta que ocupa un tercio de la pantalla.</p>
+      </div>
+      <div class="card-row">
+        <div class="small-card">
+          <h3>Tarjeta 1</h3>
+          <p>Contenido de la tarjeta pequeña 1.</p>
+        </div>
+        <div class="small-card">
+          <h3>Tarjeta 2</h3>
+          <p>Contenido de la tarjeta pequeña 2.</p>
+        </div>
+        <div class="small-card">
+          <h3>Tarjeta 3</h3>
+          <p>Contenido de la tarjeta pequeña 3.</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
